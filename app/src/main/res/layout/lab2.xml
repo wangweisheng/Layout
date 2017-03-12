@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abc_input_method_navigation_guard">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="RED"
+        android:gravity="center"
+
+        android:background="#d11414"
+        android:id="@+id/t1"/>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="ORANGE"
+        android:gravity="center"
+
+        android:background="#e8c918"
+        android:layout_toRightOf="@+id/t1"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/t2"
+        />
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="YELLOW"
+        android:gravity="center"
+
+        android:background="#eeee06"
+        android:layout_toRightOf="@+id/t2"
+        android:layout_marginLeft="30dp"
+   android:id="@+id/t3"
+        />
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/tb"
+        android:layout_below="@id/t2"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="BLUE"
+
+        android:gravity="center"
+
+        />
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/t1"
+        android:text="GREEN"
+
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="45dp"
+
+
+        android:background="#1bd815" />
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_toRightOf="@id/tb"
+        android:layout_below="@id/t3"
+        android:layout_marginTop="30dp"
+android:layout_marginLeft="15dp"
+        android:background="#a00fee"
+        android:text="INDIGO"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:text="VIOLET"
+    android:gravity="center"
+    android:layout_below="@id/tb"
+    android:layout_marginTop="30dp"
+    android:background="#fa08f2" />
+</RelativeLayout>
+
+
+
+
+
+
+
+</LinearLayout>
